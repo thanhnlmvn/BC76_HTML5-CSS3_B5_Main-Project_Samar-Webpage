@@ -1,0 +1,184 @@
+/* GLOBAL CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-size: 16px;
+  color: rgb(99, 99, 99);
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.button {
+  text-transform: uppercase;
+  font-size: 0.9375rem;
+  font-weight: 500;
+  background-image: linear-gradient(
+    to right,
+    rgb(245, 95, 141) 0px,
+    rgb(248, 174, 86) 51%,
+    rgb(245, 95, 141) 100%
+  );
+  background-size: 200%;
+  padding: 20px 35px;
+  cursor: pointer;
+  border-radius: 30px;
+  color: white;
+  border-color: transparent;
+  transition: all 0.5s;
+}
+
+h2.title {
+  font-size: 4.375rem;
+  line-height: 1.1;
+  font-weight: 800;
+  color: #262626;
+  margin-bottom: 20px;
+}
+
+.button:hover {
+  background-position: right center;
+}
+
+/* HEADER CSS */
+header {
+  position: absolute;
+  width: 100%;
+}
+
+header .header__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .header__content nav {
+  display: flex;
+  align-items: center;
+}
+
+header .header__content nav ul {
+  display: flex;
+  list-style: none;
+}
+
+header .header__content nav ul li {
+  padding: 55px 15px;
+}
+
+header .header__content nav ul a {
+  text-decoration: none;
+  font-weight: 500;
+  color: #070120;
+}
+
+header .header__content nav ul a:hover {
+  color: #f55f8d;
+}
+
+header .header__content nav ul a span {
+  font-size: 0.9375rem;
+  display: inline-block;
+}
+
+header .header__content nav ul a:hover span {
+  animation: upToDown 0.3s linear 0s 1;
+}
+
+header .header__content nav ul a svg {
+  font-size: 9px;
+  margin-top: -3px;
+  vertical-align: middle;
+}
+
+/* BANNER CSS */
+.banner {
+  background-image: url(./../img/pic2.png);
+  background-position: top;
+  background-size: 100%;
+  overflow: hidden;
+  padding-top: 180px;
+}
+
+.banner .banner__content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.banner .banner__content .banner__left {
+  width: 60%;
+}
+
+.banner .banner__content .banner__left h4 {
+  font-size: 1.375rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #f55f8d;
+}
+
+.banner .banner__content .banner__left p {
+  font-size: 1.125rem;
+  margin-bottom: 15px;
+}
+
+.banner .banner__content .banner__left ul {
+  list-style: none;
+  margin-bottom: 20px;
+}
+
+.banner .banner__content .banner__left li {
+  padding: 10px 5px 10px 0;
+  font-size: 1.25rem;
+}
+
+.banner .banner__content .banner__left li i {
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  text-align: center;
+  color: white;
+  background-image: linear-gradient(
+    to right,
+    #f55f8d 0,
+    #f8ae56 51%,
+    #f55f8d 100%
+  );
+  background-size: 200%;
+  border-radius: 50%;
+  margin-right: 10px;
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+
+.banner .banner__content .banner__right {
+  width: 40%;
+}
+
+.banner .banner__content .banner__right img {
+  margin-left: 50px;
+}
+
+/* ANIMATION CSS */
+@keyframes upToDown {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    transform: translateY(100%);
+  }
+  55% {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+}
