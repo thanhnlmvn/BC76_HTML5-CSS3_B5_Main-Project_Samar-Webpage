@@ -38,7 +38,7 @@ body {
   transition: all 0.5s;
 }
 
-h2.title {
+.title h2 {
   font-size: 4.375rem;
   line-height: 1.1;
   font-weight: 800;
@@ -46,8 +46,19 @@ h2.title {
   margin-bottom: 20px;
 }
 
+.title h4 {
+  font-size: 1.375rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #f55f8d;
+}
+
 .button:hover {
   background-position: right center;
+}
+
+.section {
+  padding-top: 115px;
 }
 
 /* HEADER CSS */
@@ -120,13 +131,6 @@ header .header__content nav ul a svg {
   width: 60%;
 }
 
-.banner .banner__content .banner__left h4 {
-  font-size: 1.375rem;
-  font-weight: 600;
-  margin-bottom: 20px;
-  color: #f55f8d;
-}
-
 .banner .banner__content .banner__left p {
   font-size: 1.125rem;
   margin-bottom: 15px;
@@ -167,6 +171,92 @@ header .header__content nav ul a svg {
 
 .banner .banner__content .banner__right img {
   margin-left: 50px;
+}
+
+/* SERVICES CSS */
+.services {
+  background-image: url(./../img/bg2.png);
+  background-size: cover;
+  background-position: top center;
+  text-align: center;
+}
+
+.service__content {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 40px;
+  gap: 30px;
+}
+
+.services .service__content .service__item {
+  padding: 30px 45px;
+  box-shadow: 0 0 60px 0 rgba(0, 0, 0, 0.1);
+  background-color: white;
+  border: 3px solid transparent;
+  /* border-image: 100 round; */
+  transform: translateY(0);
+  transition: all 0.5s;
+}
+
+.services .service__content .service__item:hover {
+  transform: translateY(-20px);
+  border-image: url(./../img/br.png) 1 round;
+}
+
+.services .service__content .service__item h3 {
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: #262626;
+  margin: 15px 0;
+}
+
+.services .service__content .service__item img {
+  width: 100%;
+}
+
+/* ABOUT CSS */
+.about {
+  background-image: url(./../img/bg15.png);
+  background-size: 100%;
+  background-position: center right;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+.about .about__content {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  position: relative;
+}
+
+.about .about__content .about__left {
+  width: 60%;
+  position: absolute;
+  left: -17%;
+}
+
+.about .about__content .about__left img {
+  width: 100%;
+  border-radius: 0 100px 100px 0;
+}
+.about .about__content .about__right {
+  width: 50%;
+}
+
+.about .about__content .about__right .about__title p {
+  margin-bottom: 15px;
+}
+.about .about__content .about__right .about__title ul {
+  list-style: none;
+  margin-bottom: 30px;
+}
+
+.about .about__content .about__right .about__title li i {
+  color: #f55f8d;
+  margin-right: 10px;
+  vertical-align: middle;
+  font-size: 1.5rem;
 }
 
 /* ANIMATION CSS */
