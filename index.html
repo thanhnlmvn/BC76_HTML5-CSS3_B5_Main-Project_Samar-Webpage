@@ -17,10 +17,26 @@
     <!-- Flaticon CSS -->
     <link rel="stylesheet" href="./css/flaticon/flaticon.css" />
 
-    <!-- Line Awesome CSS CDN -->
+    <!-- Line Awesome CDN CSS  -->
     <link
       rel="stylesheet"
       href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css"
+    />
+
+    <!-- Slick carousel CDN CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/2.0.0/slick.min.css"
+      integrity="sha512-4LYsNd7rZ3w/Nb4egddt7n38KBIpvr8djGpHdWVYS04IGO90ma9q2WUIOvgE2APdCFGbpX0/cl0OoLotWhFmVA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/2.0.0/slick-theme.min.css"
+      integrity="sha512-x8N2Tx+THLEVqSgflGruALuSVFhlu5BkwKHhjEnjmJk9q3qraPmV3uXWnY8oisXkJuVCASJlRPFN13P4fAFphQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
     />
 
     <!-- MAIN CSS -->
@@ -283,18 +299,426 @@
       </section>
 
       <!-- PORTFOLIO -->
-      <section class="portfolio"></section>
+      <section class="portfolio section">
+        <div class="container">
+          <div class="portfolio__title title">
+            <h4>Portfolio</h4>
+            <h2>Our Latest Work</h2>
+          </div>
+          <div class="portfolio__content">
+            <div class="portfolio__item">
+              <img src="./img/pic1_2.jpg" alt="" />
+              <div class="portfolio__overlay">
+                <div class="portfolio__icon">
+                  <a href="#"><i class="la la-plus"></i></a>
+                </div>
+                <div class="portfolio__text">
+                  <h3>Software Landing</h3>
+                  <p>By Jhone Doe</p>
+                </div>
+              </div>
+            </div>
+            <div class="portfolio__item">
+              <img src="./img/pic2_1.jpg" alt="" />
+              <div class="portfolio__overlay">
+                <div class="portfolio__icon">
+                  <a href="#"><i class="la la-plus"></i></a>
+                </div>
+                <div class="portfolio__text">
+                  <h3>Software Landing</h3>
+                  <p>By Jhone Doe</p>
+                </div>
+              </div>
+            </div>
+            <div class="portfolio__item">
+              <img src="./img/pic3_1.jpg" alt="" />
+              <div class="portfolio__overlay">
+                <div class="portfolio__icon">
+                  <a href="#"><i class="la la-plus"></i></a>
+                </div>
+                <div class="portfolio__text">
+                  <h3>Software Landing</h3>
+                  <p>By Jhone Doe</p>
+                </div>
+              </div>
+            </div>
+            <div class="portfolio__item">
+              <img src="./img/pic4.jpg" alt="" />
+              <div class="portfolio__overlay">
+                <div class="portfolio__icon">
+                  <a href="#"><i class="la la-plus"></i></a>
+                </div>
+                <div class="portfolio__text">
+                  <h3>Software Landing</h3>
+                  <p>By Jhone Doe</p>
+                </div>
+              </div>
+            </div>
+            <div class="portfolio__item">
+              <img src="./img/pic5.jpg" alt="" />
+              <div class="portfolio__overlay">
+                <div class="portfolio__icon">
+                  <a href="#"><i class="la la-plus"></i></a>
+                </div>
+                <div class="portfolio__text">
+                  <h3>Software Landing</h3>
+                  <p>By Jhone Doe</p>
+                </div>
+              </div>
+            </div>
+            <div class="portfolio__item">
+              <img src="./img/pic6.jpg" alt="" />
+              <div class="portfolio__overlay">
+                <div class="portfolio__icon">
+                  <a href="#"><i class="la la-plus"></i></a>
+                </div>
+                <div class="portfolio__text">
+                  <h3>Software Landing</h3>
+                  <p>By Jhone Doe</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
       <!-- BLOG -->
-      <section class="blog"></section>
+      <section class="blog section">
+        <div class="container">
+          <div class="blog__title title">
+            <h4>Our Blog</h4>
+            <h2>Latest News & Blog</h2>
+          </div>
+
+          <div class="blog__content">
+            <div class="blog__carousel">
+              <div class="blog__bg">
+                <div class="blog__item">
+                  <div class="blog__header">
+                    <img src="./img/pic1_1.jpg" alt="" />
+                    <p>23 MARCH 2022</p>
+                  </div>
+                  <div class="blog__body">
+                    <h3>Lorem ipsum dolor sit amet consectetur.</h3>
+                    <p>
+                      Nunc convallis sagittis dui eu dictum. Cras sodales id
+                      ipsum ac aliquam. Phasellus justo quam.
+                    </p>
+                  </div>
+                  <div class="blog__footer">
+                    <p>
+                      <i class="las la-user-circle"></i> BY
+                      <span>Johne Doe</span>
+                    </p>
+                    <p>
+                      <i class="las la-comment"></i>
+                      Comments 15
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="blog__bg">
+                <div class="blog__item">
+                  <div class="blog__header">
+                    <img src="./img/pic2.jpg" alt="" />
+                    <p>23 MARCH 2022</p>
+                  </div>
+                  <div class="blog__body">
+                    <h3>Lorem ipsum dolor sit amet consectetur.</h3>
+                    <p>
+                      Nunc convallis sagittis dui eu dictum. Cras sodales id
+                      ipsum ac aliquam. Phasellus justo quam.
+                    </p>
+                  </div>
+                  <div class="blog__footer">
+                    <p>
+                      <i class="las la-user-circle"></i> BY
+                      <span>Johne Doe</span>
+                    </p>
+                    <p>
+                      <i class="las la-comment"></i>
+                      Comments 15
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="blog__bg">
+                <div class="blog__item">
+                  <div class="blog__header">
+                    <img src="./img/pic3.jpg" alt="" />
+                    <p>23 MARCH 2022</p>
+                  </div>
+                  <div class="blog__body">
+                    <h3>Lorem ipsum dolor sit amet consectetur.</h3>
+                    <p>
+                      Nunc convallis sagittis dui eu dictum. Cras sodales id
+                      ipsum ac aliquam. Phasellus justo quam.
+                    </p>
+                  </div>
+                  <div class="blog__footer">
+                    <p>
+                      <i class="las la-user-circle"></i> BY
+                      <span>Johne Doe</span>
+                    </p>
+                    <p>
+                      <i class="las la-comment"></i>
+                      Comments 15
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="blog__bg">
+                <div class="blog__item">
+                  <div class="blog__header">
+                    <img src="./img/pic1_1.jpg" alt="" />
+                    <p>23 MARCH 2022</p>
+                  </div>
+                  <div class="blog__body">
+                    <h3>Lorem ipsum dolor sit amet consectetur.</h3>
+                    <p>
+                      Nunc convallis sagittis dui eu dictum. Cras sodales id
+                      ipsum ac aliquam. Phasellus justo quam.
+                    </p>
+                  </div>
+                  <div class="blog__footer">
+                    <p>
+                      <i class="las la-user-circle"></i> BY
+                      <span>Johne Doe</span>
+                    </p>
+                    <p>
+                      <i class="las la-comment"></i>
+                      Comments 15
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="blog__bg">
+                <div class="blog__item">
+                  <div class="blog__header">
+                    <img src="./img/pic2.jpg" alt="" />
+                    <p>23 MARCH 2022</p>
+                  </div>
+                  <div class="blog__body">
+                    <h3>Lorem ipsum dolor sit amet consectetur.</h3>
+                    <p>
+                      Nunc convallis sagittis dui eu dictum. Cras sodales id
+                      ipsum ac aliquam. Phasellus justo quam.
+                    </p>
+                  </div>
+                  <div class="blog__footer">
+                    <p>
+                      <i class="las la-user-circle"></i> BY
+                      <span>Johne Doe</span>
+                    </p>
+                    <p>
+                      <i class="las la-comment"></i>
+                      Comments 15
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="blog__bg">
+                <div class="blog__item">
+                  <div class="blog__header">
+                    <img src="./img/pic3.jpg" alt="" />
+                    <p>23 MARCH 2022</p>
+                  </div>
+                  <div class="blog__body">
+                    <h3>Lorem ipsum dolor sit amet consectetur.</h3>
+                    <p>
+                      Nunc convallis sagittis dui eu dictum. Cras sodales id
+                      ipsum ac aliquam. Phasellus justo quam.
+                    </p>
+                  </div>
+                  <div class="blog__footer">
+                    <p>
+                      <i class="las la-user-circle"></i> BY
+                      <span>Johne Doe</span>
+                    </p>
+                    <p>
+                      <i class="las la-comment"></i>
+                      Comments 15
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
 
     <!-- FOOTER -->
-    <footer></footer>
+    <footer>
+      <div class="container">
+        <div class="footer__top">
+          <div class="footer__text">
+            <h2>Subscribe To Our Newsletter</h2>
+          </div>
+          <div class="footer__form">
+            <form action="">
+              <input type="text" placeholder="Your Email Address" />
+              <button><i class="las la-paper-plane"></i></button>
+            </form>
+          </div>
+        </div>
+        <div class="footer__bottom">
+          <div class="footer__contact">
+            <a href=""><img src="./img/logo-white.png" alt="" /></a>
+            <ul>
+              <li>
+                <div class="footer__sub-icon">
+                  <i class="fa fa-phone"></i>
+                </div>
+                <span>
+                  <a href="tel:1800-123-4567">1800-123-4567</a>
+                  <br />
+                  <a href="tel:+91 987-654-3210"> +91 987-654-3210 </a>
+                </span>
+              </li>
+              <li>
+                <div class="footer__sub-icon">
+                  <i class="fa fa-envelope"></i>
+                </div>
+                <span>
+                  <a href="mailto:info@example.com">info@example.com </a>
+                  <br />
+                  <a href="mailto:services@gmail.com">services@gmail.com </a>
+                </span>
+              </li>
+              <li>
+                <div class="footer__sub-icon">
+                  <i class="fas fa-map-marker-alt"></i>
+                </div>
+                <span>
+                  Demo Address #8901 Marmora
+                  <br />
+                  Road City
+                </span>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__link">
+            <h3>Our links</h3>
+            <ul>
+              <li>
+                <a href=""> <i class="fa fa-angle-right"></i> Home </a>
+              </li>
+              <li>
+                <a href=""> <i class="fa fa-angle-right"></i> About Us </a>
+              </li>
+              <li>
+                <a href=""> <i class="fa fa-angle-right"></i> Services </a>
+              </li>
+              <li>
+                <a href=""> <i class="fa fa-angle-right"></i> Team </a>
+              </li>
+              <li>
+                <a href=""> <i class="fa fa-angle-right"></i> Blog </a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__link">
+            <h3>Our Services</h3>
+            <ul>
+              <li>
+                <a href="">
+                  <i class="fa fa-angle-right"></i> Strategy & Research
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <i class="fa fa-angle-right"></i> Web Development
+                </a>
+              </li>
+              <li>
+                <a href=""> <i class="fa fa-angle-right"></i> Web Solution </a>
+              </li>
+              <li>
+                <a href="">
+                  <i class="fa fa-angle-right"></i> Digital Marketing
+                </a>
+              </li>
+              <li>
+                <a href=""> <i class="fa fa-angle-right"></i> App Design </a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__link">
+            <h3>Other links</h3>
+            <ul>
+              <li>
+                <a href=""> <i class="fa fa-angle-right"></i> FAQ </a>
+              </li>
+              <li>
+                <a href=""> <i class="fa fa-angle-right"></i> Portfolio </a>
+              </li>
+              <li>
+                <a href="">
+                  <i class="fa fa-angle-right"></i> Privacy Policy
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <i class="fa fa-angle-right"></i> Terms & Conditions
+                </a>
+              </li>
+              <li>
+                <a href=""> <i class="fa fa-angle-right"></i> Support </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer__copy">
+        <div class="container footer__content">
+          <p>Copyright © 2021 <span>DexignZone</span> . All rights reserved.</p>
+          <div class="footer__icon">
+            <a href=""><i class="fab fa-facebook-f"></i></a>
+            <a href=""><i class="fab fa-instagram"></i></a>
+            <a href=""><i class="fab fa-twitter"></i></a>
+          </div>
+        </div>
+      </div>
+    </footer>
     <!-- Fontawesome CDN -->
     <script
       src="https://kit.fontawesome.com/1d52c6c7e0.js"
       crossorigin="anonymous"
     ></script>
+
+    <!-- Jquery CDN JS -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/4.0.0/jquery.min.js"
+      integrity="sha512-8LENNbXmzI/Gbj+OwXmqR6V4QaUAw0/porPzy1+dQoJqC0JPHedWoe0DDOTL2uHA5XXJyIsPtiMHH86pVlay6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <!-- Jquery migrate CDN JS -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/4.0.2/jquery-migrate.min.js"
+      integrity="sha512-uOxEQArH5KsutsjkomKx93ii6l8wgvikljvFmiROZm1mb0PMu2uerhsVe+n6Atpd7LMVV8dFbphSD1Azjr/tIw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <!-- Slick CDN JS -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/2.0.0/slick.min.js"
+      integrity="sha512-BOKtfC8+2NxiElU0ZCwEd2N7nnWGKEoSXrlJNrQZEXvTBoyWdhlFUKxGbmRXb5Oe+yQK4I4S3jJHH081wq5kEg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <script>
+      $(document).ready(function () {
+        $(".blog__carousel").slick({
+          slidesToShow: 3,
+          slidesToScroll: 1,
+        });
+      });
+    </script>
   </body>
 </html>
